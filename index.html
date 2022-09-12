@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+    <!------------------------------------------ FAVICON ------------------------------------------>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <img src="/images/apple-logo.svg" alt="">
+        <button id="myBtn"><i class="material-icons" style="font-size:36px">shopping_cart</i></button>
+
+        <!-- Trigger/Open The Modal -->
+        <!-- <button id="myBtn">Open Modal</button> -->
+        
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+        
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <span class="close">&times;</span>
+              <h2>Cart</h2>
+            </div>
+            <div class="modal-body">
+              <p>There is no item on your cart</p>
+            </div>
+            <div class="modal-footer">
+              <h3>Total = ₱0.00</h3>
+            </div>
+          </div>
+        
+        </div>
+    </nav>
+    <header>
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="/images/iphone14pro.jpg" style="width:100%">
+      <div class="text">Iphone 14 Pro</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="/images/iphone14.jpg" style="width:100%">
+      <div class="text">Iphone 14</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="/images/iphone14se.jpg" style="width:100%">
+      <div class="text">Iphone SE</div>
+    </div>
+  
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>   
+    </header>
+    <section>
+        <div class="products"></div>  
+    </section>
+    <footer>
+
+    </footer>
+    
+
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+[
+   {
+      "image": "products/iphone14pro.jpg",
+      "title": "Iphone 14 Pro",
+      "description": "Pro. Beyond.",
+      "price": "70,990"
+   },
+   {
+      "image": "products/iphone14.jpg",
+      "title": "Iphone 14",
+      "description": "Wonderfull.",
+      "price": "56,990"
+   },
+   {
+      "image": "products/iphonese2.jpg",
+      "title": "Iphone SE",
+      "description": "Love the Power. Love the Value",
+      "price": "30,990"
+   }
+]
